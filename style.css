@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.hOne {
+    float: left;
+    background: rgb(77, 189, 170);
+    height: 10%;
+width: 250px;
+position: fixed;
+padding-top: 10px;
+top: 0%;
+left: 0%;
+border: 3px solid black;
+margin: 0;
+
+}
+header {
+    /* position: fixed; */
+    height: 75px;
+    width: 100%;
+    clear: both;
+    background-color: white;;
+}
+.body{
+font-family: Lilita One;
+
+}
+
+html,body{
+
+    height: 100%;
+    margin: 0%;
+}
+
+.tabs{
+    float: right;
+    position: fixed;
+    top: 4%;
+    right: 4%;
+    padding-top: 3px;;
+    color: black;
+}
+
+    h2{
+        text-align: center;
+        font-size: 35px;
+        color: cornflowerblue;
+        border-bottom:solid 5px grey;
+        clear: both;
+    
+    }
+h3{
+    text-align: center;
+}
+
+    .content{
+        text-align: center;
+       line-height: 2;
+
+    }
+    #text {
+        width: 350px;
+    }
+
+    #url {
+        width: 350px;
+    }
+
+    #inputBox{
+        width: 400px;
+        height: 170px;
+    }
+    .container{
+        min-width: 80%;;
+        min-height: 90%;
+        margin: auto;
+        text-align: center;
+        
+    }
+  
+   
+    body{
+      background-image: url(../Images/background/checkerboard-cross.png);
+        font-family: Georgia, 'Times New Roman', Times, serif ;
+    
+    }
+
+    .footer{
+       background-color: cornflowerblue;
+        border-top: 5px solid black;
+        min-height: 10%;
+        height: 10%;
+        
+
+        
+    }
+    .wrap {
+        float: left;
+        margin: 4px;
+    }
+
+    .whiteBox {
+        background-color: white;
+        height: 230px;
+        width: 70%;
+        border: solid black;
+        text-align: center;
+        display: inline-block;
+        margin: 0;
+    }
+    .contactBox {
+        background-color: white;
+        height: 420px;
+        width: 40%;
+        border: solid black;
+        text-align: center;
+        display: inline-block;
+        margin: 0;
+    }
+
+    .picBox {
+        background-color: white;
+        height: 460px;
+        width: 45%;
+        border: solid black;
+        text-align: center;
+        display: inline-block;
+        margin: 0;
+    }
+    .content-wrapper{
+width: 200px;
+float: right;
+/* margin: 1px 3px 1px 3px; */
+}
+    .content-wrapper img{
+        width: 100%;
+    }
+.text-wrapper{
+width: 100%;
+position: relative;
+margin-top: -30%;    
+
+}
+.text-wrapper h3{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Lilita One;
+}
+#scratch{
+    float: left;
+}
+#img3{
+   
+}
+
+#img4{
+content: center;
+border: 1%;
+padding-left: 1px;
+
+}
+@media(max-width : 1010px){
+ p{
+     font-size: 14px ;
+     line-height: 1.3;
+ }
+
+}
+@media(max-width: 840px){
+    p{
+        font-size: 11px;
+        line-height: .9;
+    }
+}
+@media(max-width: 600px){
+   p{
+    font-size: 8px;
+    line-height: .7;
+   }
+}
